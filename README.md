@@ -49,3 +49,42 @@ Score = (Number of Matched Skills / Total Required Skills) × 100
 ---
 
 ## 📂 Project Structure
+---
+
+## ⚙️ Setup Guide
+
+1. Clone the repository:
+git clone <repository_link>
+
+2. Navigate into the project folder:
+cd intelligent_resume_analyzer_hidevs
+
+3. Install required dependencies:
+pip install -r requirements.txt
+
+4. Run the program:
+python main.py
+
+---
+
+## 📁 Project Structure
+
+main.py          → Controls program flow and multi-candidate logic  
+utils.py         → Contains parsing, matching, and scoring functions  
+requirements.txt → Required Python dependency  
+README.md        → Project documentation  
+
+---
+
+## 🎥 Demo Video
+
+YouTube Demo Link: 
+
+
+
+
+
+Hanish Aradhya G  
+B.Tech AIML
+Reva University
+
