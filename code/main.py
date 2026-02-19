@@ -65,8 +65,14 @@ def main():
 
         candidates.append(candidate_data)
 
-        print(f"\n{name} analyzed successfully!")
-        print(f"Score: {round(score,2)}% | Recommendation: {recommendation}")
+        print("\n===== Candidate Analysis =====")
+        print(f"Name: {name}")
+        print(f"Email: {email}")
+        print(f"Experience: {experience} year(s)")
+        print(f"Resume Score: {round(score,2)}%")
+        print(f"Recommendation: {recommendation}")
+        print("==============================")
+
 
         another = input("Analyze another resume? (y/n): ").lower()
         if another != 'y':
@@ -87,3 +93,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
